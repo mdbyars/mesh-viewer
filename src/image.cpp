@@ -12,6 +12,7 @@ using namespace glm;
       
 Image::Image() : myData(0), myWidth(0), myHeight(0), myLoaded(false)
 {
+
 }
 
 Image::Image(int width, int height) : myWidth(width), myHeight(height), myLoaded(false)

@@ -38,6 +38,13 @@ namespace agl {
       // face indices in this model
       unsigned int* indices() const;
 
+      float* myVertices;
+      //gets returned from positions remmeber to return 
+
+     // float* normals;
+
+      unsigned int* indicies; 
+
    };
 }
 
